@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="author" content="Javier Cebrián Muñoz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/088f65f4fe.js" crossorigin="anonymous"></script>
+
+    <title>Javier Cebrián Muñoz</title>
+</head>
+
+<style>
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    h1 {
+        font-family: Merienda;
+        text-decoration: none;
+    }
+
+    #hero {
+        text-decoration: none;
+        text-align: center;
+        padding: 2rem;
+        margin: auto;
+        width: 40%;
+        display: grid;
+        justify-items: center;
+        align-items: end;
+        gap: 2rem;
+        grid-template-areas:
+            'logo'
+            'tipo';
+    }
+
+    #logo-casa {
+        display: block;
+        width: 100%;
+        grid-area: logo;
+    }
+
+    #logo-hoja {
+        display: block;
+        width: 100%;
+        grid-area: logo;
+        animation-name: grow;
+        animation-duration: 2s;
+    }
+
+
+    @keyframes grow {
+        from {
+            width: 10%;
+        }
+
+        to {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+
+    <main class="card">
+        <a href="search.html" id="hero"><img src="img/logo/logo-casa.svg" alt="" id="logo-casa">
+            <img src="img/logo/logo-hoja.svg" alt="" id="logo-hoja">
+            <span class="btn">beRural</span>
+        </a>
+    </main>
+
+
+    <footer class="card">
+        <a href="search.html"><img src="img/logo/logotipo.svg" alt="" id="logotipo-footer"></a>
+        <ul>
+            <li><a href="#">Quienes somos</a></li>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">Condiciones legales</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="">
+                    <i class="fab fa-twitter-square"></i><span>twitter</span>
+
+                </a>
+            </li>
+            <li><a href="">
+                    <i class="fab fa-instagram"></i><span>instagram</span>
+
+                </a>
+            </li>
+            <li><a href="">
+                    <i class="fab fa-facebook-square"></i><span>facebook</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

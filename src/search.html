@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="author" content="Javier Cebrián Muñoz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/088f65f4fe.js" crossorigin="anonymous"></script>
+    <script src="js/hide-show-forms.js"></script>
+    <title>Javier Cebrián Muñoz</title>
+</head>
+
+<body>
+    <div id="barra" class="card">
+        <header>
+            <a href="search.html">
+                <img src="img/logo/logo-color.svg" id="logo" alt="">
+                <h1>beRural</h1>
+            </a>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <input type="checkbox" id="hideShowCheckbox">
+                    <label for="hideShowCheckbox" class="btn">
+                        <span class="material-icons-round">
+                            search
+                        </span>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        <aside class="card hide-show" id="hideShowForms">
+            <form action="" class=" miform ">
+                <div>
+                    <label for="destino">destino</label>
+                    <input type="text" id="destino" placeholder="Valencia">
+                </div>
+                <div>
+                    <label for="fechaEntrada">entrada</label>
+                    <input type="date" id="fechaEntrada">
+                </div>
+                <div>
+                    <label for="fechaSalida">salida</label>
+                    <input type="date" id="fechaSalida">
+                </div>
+                <div>
+                    <label for="personas">personas</label>
+                    <input type="number" id="personas" max="30" min="1" step="1" placeholder="5">
+                </div>
+
+                <button class="btn">
+                    <span class="material-icons-round">
+                        search
+                    </span>Buscar
+                </button>
+            </form>
+            <form action="" class="miform">
+                <div id="buttons">
+                    <input type="checkbox" name="" id="cbPiscina">
+                    <label for="cbPiscina" class="checkbutton">
+                        <span class="material-icons-round">pool</span>
+                        <span>piscina</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbBarbacoa">
+                    <label for="cbBarbacoa" class="checkbutton">
+                        <span class="material-icons-round">outdoor_grill</span>
+                        <span>barbacoa</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbJardin">
+                    <label for="cbJardin" class="checkbutton">
+                        <span class="material-icons-round">nature</span>
+                        <span>jardín</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbChimenea">
+                    <label for="cbChimenea" class="checkbutton">
+                        <span class="material-icons-round">fireplace</span>
+                        <span>chimenea</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbLavadora">
+                    <label for="cbLavadora" class="checkbutton">
+                        <span class="material-icons-round">local_laundry_service</span>
+                        <span>lavadora</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbAparcamiento">
+                    <label for="cbAparcamiento" class="checkbutton">
+                        <span class="material-icons-round">local_parking</span>
+                        <span>parking</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbMascotas">
+                    <label for="cbMascotas" class="checkbutton">
+                        <span class="material-icons-round">pets</span>
+                        <span>animales</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbAireAcondicionado">
+                    <label for="cbAireAcondicionado" class="checkbutton">
+                        <span class="material-icons-round">ac_unit</span>
+                        <span>climatizador</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbTerraza">
+                    <label for="cbTerraza" class="checkbutton">
+                        <span class="material-icons-round">balcony</span>
+                        <span>terraza</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbInternet">
+                    <label for="cbInternet" class="checkbutton">
+                        <span class="material-icons-round">wifi</span>
+                        <span>internet</span>
+                    </label>
+                </div>
+                <button class="btn"><span class="material-icons-round">
+                        search
+                    </span>Filtrar</button>
+            </form>
+        </aside>
+        <main>
+            <article class="card">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <a href="detail.html">
+                    <h1>La casa Roja</h1>
+                </a>
+                <h2>Valencia</h2>
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">
+                            man
+                        </span>10
+                    </li>
+                    <li>
+                        <span class="material-icons-round">
+                            bed
+                        </span>7
+                    </li>
+                </ul>
+
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quis modi deleniti atque ab
+                    soluta.
+                    Id ad fugit aspernatur sed iste tempore sunt, ipsam vero natus soluta necessitatibus atque
+                    eligendi?
+                </p>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <a href="detail.html">
+                    <h1>La casa Roja</h1>
+                </a>
+                <h2>Valencia</h2>
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">
+                            man
+                        </span>10
+                    </li>
+                    <li>
+                        <span class="material-icons-round">
+                            bed
+                        </span>7
+                    </li>
+                </ul>
+
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quis modi deleniti atque ab
+                    soluta.
+                    Id ad fugit aspernatur sed iste tempore sunt, ipsam vero natus soluta necessitatibus atque
+                    eligendi?
+                </p>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <a href="detail.html">
+                    <h1>La casa Roja</h1>
+                </a>
+                <h2>Valencia</h2>
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">
+                            man
+                        </span>10
+                    </li>
+                    <li>
+                        <span class="material-icons-round">
+                            bed
+                        </span>7
+                    </li>
+                </ul>
+
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quis modi deleniti atque ab
+                    soluta.
+                    Id ad fugit aspernatur sed iste tempore sunt, ipsam vero natus soluta necessitatibus atque
+                    eligendi?
+                </p>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <a href="detail.html">
+                    <h1>La casa Roja</h1>
+                </a>
+                <h2>Valencia</h2>
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">
+                            man
+                        </span>10
+                    </li>
+                    <li>
+                        <span class="material-icons-round">
+                            bed
+                        </span>7
+                    </li>
+                </ul>
+
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quis modi deleniti atque ab
+                    soluta.
+                    Id ad fugit aspernatur sed iste tempore sunt, ipsam vero natus soluta necessitatibus atque
+                    eligendi?
+                </p>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <a href="detail.html">
+                    <h1>La casa Roja</h1>
+                </a>
+                <h2>Valencia</h2>
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">
+                            man
+                        </span>10
+                    </li>
+                    <li>
+                        <span class="material-icons-round">
+                            bed
+                        </span>7
+                    </li>
+                </ul>
+
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quis modi deleniti atque ab
+                    soluta.
+                    Id ad fugit aspernatur sed iste tempore sunt, ipsam vero natus soluta necessitatibus atque
+                    eligendi?
+                </p>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <a href="detail.html">
+                    <h1>La casa Roja</h1>
+                </a>
+                <h2>Valencia</h2>
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">
+                            man
+                        </span>10
+                    </li>
+                    <li>
+                        <span class="material-icons-round">
+                            bed
+                        </span>7
+                    </li>
+                </ul>
+
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quis modi deleniti atque ab
+                    soluta.
+                    Id ad fugit aspernatur sed iste tempore sunt, ipsam vero natus soluta necessitatibus atque
+                    eligendi?
+                </p>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <a href="detail.html">
+                    <h1>La casa Roja</h1>
+                </a>
+                <h2>Valencia</h2>
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">
+                            man
+                        </span>10
+                    </li>
+                    <li>
+                        <span class="material-icons-round">
+                            bed
+                        </span>7
+                    </li>
+                </ul>
+
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quis modi deleniti atque ab
+                    soluta.
+                    Id ad fugit aspernatur sed iste tempore sunt, ipsam vero natus soluta necessitatibus atque
+                    eligendi?
+                </p>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <a href="detail.html">
+                    <h1>La casa Roja</h1>
+                </a>
+                <h2>Valencia</h2>
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">
+                            man
+                        </span>10
+                    </li>
+                    <li>
+                        <span class="material-icons-round">
+                            bed
+                        </span>7
+                    </li>
+                </ul>
+
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quis modi deleniti atque ab
+                    soluta.
+                    Id ad fugit aspernatur sed iste tempore sunt, ipsam vero natus soluta necessitatibus atque
+                    eligendi?
+                </p>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <a href="detail.html">
+                    <h1>La casa Roja</h1>
+                </a>
+                <h2>Valencia</h2>
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">
+                            man
+                        </span>10
+                    </li>
+                    <li>
+                        <span class="material-icons-round">
+                            bed
+                        </span>7
+                    </li>
+                </ul>
+
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quis modi deleniti atque ab
+                    soluta.
+                    Id ad fugit aspernatur sed iste tempore sunt, ipsam vero natus soluta necessitatibus atque
+                    eligendi?
+                </p>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <a href="detail.html">
+                    <h1>La casa Roja</h1>
+                </a>
+                <h2>Valencia</h2>
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">
+                            man
+                        </span>10
+                    </li>
+                    <li>
+                        <span class="material-icons-round">
+                            bed
+                        </span>7
+                    </li>
+                </ul>
+
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quis modi deleniti atque ab
+                    soluta.
+                    Id ad fugit aspernatur sed iste tempore sunt, ipsam vero natus soluta necessitatibus atque
+                    eligendi?
+                </p>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <a href="detail.html">
+                    <h1>La casa Roja</h1>
+                </a>
+                <h2>Valencia</h2>
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">
+                            man
+                        </span>10
+                    </li>
+                    <li>
+                        <span class="material-icons-round">
+                            bed
+                        </span>7
+                    </li>
+                </ul>
+
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quis modi deleniti atque ab
+                    soluta.
+                    Id ad fugit aspernatur sed iste tempore sunt, ipsam vero natus soluta necessitatibus atque
+                    eligendi?
+                </p>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <a href="detail.html">
+                    <h1>La casa Roja</h1>
+                </a>
+                <h2>Valencia</h2>
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">
+                            man
+                        </span>10
+                    </li>
+                    <li>
+                        <span class="material-icons-round">
+                            bed
+                        </span>7
+                    </li>
+                </ul>
+
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quis modi deleniti atque ab
+                    soluta.
+                    Id ad fugit aspernatur sed iste tempore sunt, ipsam vero natus soluta necessitatibus atque
+                    eligendi?
+                </p>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+            </article>
+
+        </main>
+    </div>
+
+    <footer class="card">
+        <a href="search.html">
+            <img src="img/logo/logotipo.svg" alt="" id="logotipo-footer">
+        </a>
+        <ul>
+            <li>
+                <a href="#">Quienes somos</a>
+            </li>
+            <li>
+                <a href="#">Privacidad</a>
+            </li>
+            <li>
+                <a href="#">Condiciones legales</a>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <a href="">
+                    <i class="fab fa-twitter-square">
+                    </i>
+                    <span>twitter</span>
+
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fab fa-instagram">
+                    </i>
+                    <span>instagram</span>
+
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fab fa-facebook-square">
+                    </i>
+                    <span>facebook</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

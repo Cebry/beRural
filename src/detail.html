@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="author" content="Javier Cebrián Muñoz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/088f65f4fe.js" crossorigin="anonymous"></script>
+    <script src="js/hide-show-forms.js"></script>
+    <title>Javier Cebrián Muñoz</title>
+</head>
+
+<body>
+    <div id="barra" class="card">
+        <header>
+            <a href="search.html">
+                <img src="img/logo/logo-color.svg" id="logo" alt="">
+                <h1>beRural</h1>
+            </a>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <input type="checkbox" id="hideShowCheckbox">
+                    <label for="hideShowCheckbox" class="btn">
+                        <span class="material-icons-round">
+                            search
+                        </span>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        <aside class="hide-show card" id="hideShowForms">
+            <form action="" class=" miform">
+                <div>
+                    <label for="destino">destino</label>
+                    <input type="text" id="destino" placeholder="Valencia">
+                </div>
+                <div>
+                    <label for="fechaEntradaBuscar">entrada</label>
+                    <input type="date" id="fechaEntradaBuscar">
+                </div>
+                <div>
+                    <label for="fechaSalidaBuscar">salida</label>
+                    <input type="date" id="fechaSalidaBuscar">
+                </div>
+                <div>
+                    <label for="personas">personas</label>
+                    <input type="number" id="personas" max="30" min="1" step="1" placeholder="5">
+                </div>
+
+                <button class="btn">
+                    <span class="material-icons-round">
+                        search
+                    </span>Buscar
+                </button>
+            </form>
+            <form action="" class="miform">
+                <div id="buttons">
+                    <input type="checkbox" name="" id="cbPiscina">
+                    <label for="cbPiscina" class="checkbutton">
+                        <span class="material-icons-round">pool</span>
+                        <span>piscina</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbBarbacoa">
+                    <label for="cbBarbacoa" class="checkbutton">
+                        <span class="material-icons-round">outdoor_grill</span>
+                        <span>barbacoa</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbJardin">
+                    <label for="cbJardin" class="checkbutton">
+                        <span class="material-icons-round">nature</span>
+                        <span>jardín</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbChimenea">
+                    <label for="cbChimenea" class="checkbutton">
+                        <span class="material-icons-round">fireplace</span>
+                        <span>chimenea</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbLavadora">
+                    <label for="cbLavadora" class="checkbutton">
+                        <span class="material-icons-round">local_laundry_service</span>
+                        <span>lavadora</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbAparcamiento">
+                    <label for="cbAparcamiento" class="checkbutton">
+                        <span class="material-icons-round">local_parking</span>
+                        <span>parking</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbMascotas">
+                    <label for="cbMascotas" class="checkbutton">
+                        <span class="material-icons-round">pets</span>
+                        <span>animales</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbAireAcondicionado">
+                    <label for="cbAireAcondicionado" class="checkbutton">
+                        <span class="material-icons-round">ac_unit</span>
+                        <span>climatizador</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbTerraza">
+                    <label for="cbTerraza" class="checkbutton">
+                        <span class="material-icons-round">balcony</span>
+                        <span>terraza</span>
+                    </label>
+                    <input type="checkbox" name="" id="cbInternet">
+                    <label for="cbInternet" class="checkbutton">
+                        <span class="material-icons-round">wifi</span>
+                        <span>internet</span>
+                    </label>
+                </div>
+                <button class="btn"><span class="material-icons-round">
+                        search
+                    </span>Filtrar</button>
+            </form>
+        </aside>
+        <main class="main-detail ">
+            <section class="card">
+                <form action="" class="miform">
+                    <label for="fechaEntrada">fecha de entrada</label>
+                    <input type="date" id="fechaEntrada">
+
+                    <label for="fechaSalida">fecha de salida</label>
+                    <input type="date" id="fechaSalida">
+                    <button class="btn">Reservar</button>
+
+                </form>
+            </section>
+
+            <section class="card info" id="info">
+                <img src="img/casa1/fachada-pequeña.png" alt="">
+                <h1>La casa Roja</h1>
+                <h2>Valencia</h2>
+
+                <ul class="caracteristicas">
+                    <li>
+                        <span class="material-icons-round">man </span>
+                        <span>10</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">bed </span>
+                        <span>7</span>
+                    </li>
+                </ul>
+                <div class="precio-puntuacion">
+                    <ul class="puntuacion">
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_rate
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_half
+                            </span>
+                        </li>
+                        </li>
+                        <li>
+                            <span class="material-icons-round">
+                                star_outline
+                            </span>
+                        </li>
+                        </li>
+                    </ul>
+
+                    <div class="precio">
+                        <span>18</span>
+                        <span class="material-icons-round">euro</span>
+                        <span>persona/día</span>
+                    </div>
+                </div>
+                <ul class="extrasList">
+                    <li>
+                        <span class="material-icons-round"> pool </span>
+                        <span>piscina</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">outdoor_grill </span>
+                        <span>barbacoa</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> nature</span>
+                        <span>jardín</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> fireplace</span>
+                        <span>chimenea</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_laundry_service </span>
+                        <span>lavadora</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> local_parking </span>
+                        <span>aparcamiento</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> pets </span>
+                        <span>mascotas</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> ac_unit </span>
+                        <span>aire acondicionado</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> balcony</span>
+                        <span>terraza</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round"> wifi </span>
+                        <span>internet</span>
+                    </li>
+                </ul>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt tenetur voluptas enim unde
+                    ipsa, at fugit quae quod, commodi earum dolor quaerat quasi maiores corporis ullam alias facere,
+                    autem inventore.</p>
+                <p>Unde assumenda repellat vel amet possimus totam corporis iure dolores, sit doloremque inventore
+                    dolorum ullam nihil pariatur earum quo veniam ex asperiores mollitia id modi nesciunt laboriosam
+                    eos adipisci. Ex!</p>
+                <p>Incidunt labore aspernatur nulla vero magni. Nihil praesentium deserunt repudiandae omnis vero
+                    necessitatibus fugit. A pariatur cupiditate inventore velit recusandae maiores numquam maxime,
+                    quae commodi similique! Et sint eveniet unde!</p>
+                <p>Excepturi quo maiores eos saepe architecto illo aspernatur repellat, obcaecati, quibusdam,
+                    consectetur doloribus inventore doloremque deserunt quia cumque blanditiis ullam libero suscipit
+                    animi perferendis nemo consequatur impedit hic at! Aperiam.</p>
+                <p>Impedit, deleniti fugit ab quas non sapiente, necessitatibus unde fuga id ratione mollitia
+                    voluptate labore, laboriosam dolor ipsam quaerat reiciendis saepe esse quae maiores. Et ipsum
+                    nam doloribus sequi nobis!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatum quis, aperiam ullam, quia
+                    nihil repellat, deleniti eveniet tenetur tempore commodi possimus. Eaque, excepturi sequi et
+                    similique aspernatur odio tempore!</p>
+                <p>Doloribus est omnis ut possimus modi reiciendis maxime. Recusandae, qui? Nulla est quasi laboriosam?
+                    Explicabo, numquam dignissimos! Neque distinctio praesentium, quis temporibus consectetur illo, modi
+                    vel a tempore, dolor vitae.</p>
+                <p>Quae aliquam sit perspiciatis dicta velit, nemo mollitia itaque eaque eius qui expedita, asperiores
+                    nobis suscipit. Saepe nobis soluta placeat necessitatibus rem animi, perferendis dicta reiciendis
+                    voluptas ab labore in.</p>
+                <p>Tempore inventore quas amet vel doloribus fugit eligendi sapiente. Inventore iure aliquid consequatur
+                    commodi, quam hic architecto nisi perferendis saepe aperiam tenetur, impedit praesentium. Dicta
+                    autem optio cumque nobis nemo!</p>
+                <p>Quos aliquam minus suscipit cupiditate, voluptates dolorem neque, rerum ad quidem, mollitia inventore
+                    harum modi asperiores maiores vitae sint laudantium. Itaque accusamus exercitationem natus soluta
+                    voluptatibus neque, provident officia sed.</p>
+            </section>
+
+            <section class="card" id="galeria-cont">
+                <span class="material-icons-outlined btn">
+                    navigate_before
+                </span>
+
+                <div id="galeria">
+                    <img src=" img/casa1/fachada.jpeg" alt="" class="foto-galeria">
+                    <img src="img/casa1/barbacoa.jpeg" alt="" class="foto-galeria">
+                    <img src="img/casa1/habitacion_1.jpeg" alt="" class="foto-galeria">
+                    <img src="img/casa1/habitacion_2.jpeg" alt="" class="foto-galeria">
+                    <img src="img/casa1/habitacion_3.jpeg" alt="" class="foto-galeria">
+                    <img src="img/casa1/piscina.jpeg" alt="" class="foto-galeria">
+                    <img src="img/casa1/salon.jpeg" alt="" class="foto-galeria">
+                    <img src="img/casa1/vistas.jpeg" alt="" class="foto-galeria">
+                    <img src="img/casa1/barbacoa.jpeg" alt="" class="foto-galeria">
+                    <img src="img/casa1/baño_1.jpeg" alt="" class="foto-galeria">
+                    <img src="img/casa1/baño_2.jpeg" alt="" class="foto-galeria">
+                </div>
+                <span class="material-icons-outlined btn">
+                    navigate_next
+                </span>
+            </section>
+
+            <section class="card" id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d771.0699594716444!2d-0.37202007079782407!3d39.37254229871876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x183c4925198ee4a0!2zMznCsDIyJzIxLjIiTiAwwrAyMicxNy4zIlc!5e0!3m2!1ses!2ses!4v1643971446514!5m2!1ses!2ses"
+                    style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </section>
+            <section class="card">
+                <h1>Contacto</h1>
+                <ul>
+                    <li>
+                        <span class="material-icons-round">phone</span>
+                        <span>626542824</span>
+                    </li>
+                    <li>
+                        <span class="material-icons-round">email</span>
+                        <span>emaildelcasero@berural.es</span>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <footer class="card">
+        <a href="search.html">
+            <img src="img/logo/logotipo.svg" alt="" id="logotipo-footer">
+        </a>
+        <ul>
+            <li>
+                <a href="#">Quienes somos</a>
+            </li>
+            <li>
+                <a href="#">Privacidad</a>
+            </li>
+            <li>
+                <a href="#">Condiciones legales</a>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <a href="">
+                    <i class="fab fa-twitter-square">
+                    </i>
+                    <span>twitter</span>
+
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fab fa-instagram">
+                    </i>
+                    <span>instagram</span>
+
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fab fa-facebook-square">
+                    </i>
+                    <span>facebook</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
